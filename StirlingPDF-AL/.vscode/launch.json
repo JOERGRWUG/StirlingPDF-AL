@@ -1,5 +1,26 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "AL: Generated Snapshot request",
+      "request": "snapshotInitialize",
+      "type": "al",
+      "environmentType": "Production",
+      "environmentName": "Production",
+      "sessionId": 769791,
+      "breakOnNext": "WebClient",
+      "executionContext": "DebugAndProfile",
+      "tenant": "e664687d-022d-4515-9bc7-267d246ea018"
+    },
+    {
+      "type": "al",
+      "request": "launch",
+      "name": "Local Sandbox (bcserver)",
+      "server": "http://bcserver",
+      "serverInstance": "BC",
+      "port": 7049,
+      "tenant": "default",
+      "authentication": "UserPassword"
+    }
+  ]
 }
