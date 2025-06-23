@@ -190,7 +190,7 @@ codeunit 50995 StirlingPDFAPI
         IF Initialized THEN
             EXIT;
 
-        StirlingAPI := 'https://stirling-pdf.intranet-dev.intern.schmitt-aufzuege.com/api/v1';
+        StirlingAPI := 'http://192.168.178.66:8090/api/v1';
         ClientLanguage := 'en';
         Initialized := TRUE;
     END;
@@ -205,5 +205,4 @@ codeunit 50995 StirlingPDFAPI
         DebugMode: Boolean;
         Initialized: Boolean;
         StirlingAPI: Text;
-}    
 }
